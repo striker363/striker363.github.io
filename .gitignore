@@ -1,7 +1,9 @@
 # Resume files
 *.docx
-*.pdf
 *.doc
+*.pdf
+# Allow the security resume PDF for GitHub hosting
+!Sec_Resume_Siddharth_Singh.pdf
 
 # README files
 README*.md
