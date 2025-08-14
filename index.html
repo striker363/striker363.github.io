@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siddharth Arvind Singh - Software Developer & Cybersecurity Professional Portfolio">
+    <meta name="keywords" content="Software Developer, Cybersecurity, Python, Full Stack, Portfolio">
+    <meta name="author" content="Siddharth Arvind Singh">
+    <title>Siddharth Singh - Software Developer & Cybersecurity Professional</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">SS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Siddharth Arvind Singh</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Developer II & Cybersecurity Professional</h2>
+                <p class="hero-description">
+                    Passionate about building secure, scalable solutions and protecting digital assets. 
+                    Transitioning from software development to cybersecurity with expertise in automation, 
+                    API integration, and vulnerability assessment.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/siddharth-arvind-singh/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/striker363" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:siddharthsingh3631@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="window-dot red"></span>
+                        <span class="window-dot yellow"></span>
+                        <span class="window-dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="keyword">class</span> <span class="class">Developer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name = <span class="string">"Siddharth Singh"</span>
+        <span class="param">self</span>.role = <span class="string">"Software Developer II"</span>
+        <span class="param">self</span>.team = <span class="string">"R&D"</span>
+        <span class="param">self</span>.passion = <span class="string">"Cybersecurity"</span>
+        <span class="param">self</span>.languages = [<span class="string">"Python"</span>, <span class="string">"C++"</span>, <span class="string">"Java"</span>]
+        
+    <span class="keyword">def</span> <span class="function">solve_problems</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> <span class="string">"Building secure solutions"</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate cybersecurity professional transitioning from software development with a strong 
+                        foundation in vulnerability assessment, automation, and systems integration. With over 3 years of 
+                        experience in software development, I bring a unique perspective to security challenges.
+                    </p>
+                    <p>
+                        Currently working as a Software Developer II on the R&D team at CSGi in Toronto, I've led major 
+                        production releases, integrated systems using secure REST APIs, and developed automation solutions 
+                        that improved efficiency by up to 83%. Promoted in June 2025, I'm certified in Google Cybersecurity 
+                        and actively pursuing CompTIA Security+.
+                    </p>
+                    <p>
+                        My hands-on experience includes working with security tools like Wireshark, Nmap, and Metasploit for 
+                        vulnerability assessments and penetration testing. I'm eager to leverage my detail-oriented mindset 
+                        and cross-functional collaboration skills to identify, analyze, and remediate security risks.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>3+ Years</h3>
+                        <p>Professional Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>2</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Master's</h3>
+                        <p>Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer II</h3>
+                        <h4>CSGi (R&D Team) - Toronto, Canada</h4>
+                        <p style="color: var(--accent-primary); margin-bottom: 1rem; font-weight: 500;">Promoted to Software Developer II in June 2025</p>
+                        <ul>
+                            <li>Led onsite deployment for major production releases, ensuring successful system upgrades and operational stability</li>
+                            <li>Integrated systems using REST APIs with robust authentication, authorization, and API security best practices</li>
+                            <li>Documented REST APIs using OpenAPI Specification, reducing inquiries by 25%</li>
+                            <li>Developed Python, Perl, and Shell scripts for automation on RedHat Linux, improving efficiency by 20%</li>
+                            <li>Conducted performance testing of APIs, achieving up to 10% reduction in latency</li>
+                            <li>Created a solution enabling clients to maintain custom Python scripts while preserving proprietary system confidentiality</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">RedHat Linux</span>
+                            <span class="tech-tag">Perl</span>
+                            <span class="tech-tag">Shell Scripting</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2019 - Nov 2019</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer (Internship)</h3>
+                        <h4>Public Authority for Civil Aviation - Muscat, Oman</h4>
+                        <ul>
+                            <li>Trained in secure programming, network security practices, and usability</li>
+                            <li>Developed a secure FTP solution in C# with FTPS encryption for safe file transfers</li>
+                            <li>Designed an ERP solution using ASP.NET with role-based access controls (RBAC)</li>
+                            <li>Evaluated database usability and access control for robust data protection</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">ASP.NET</span>
+                            <span class="tech-tag">FTPS</span>
+                            <span class="tech-tag">RBAC</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">June 2019 - Aug 2019</div>
+                    <div class="timeline-content">
+                        <h3>IT Support</h3>
+                        <h4>Decoding IT Solutions - Muscat, Oman</h4>
+                        <ul>
+                            <li>Provided technical support focusing on secure configuration and system hardening</li>
+                            <li>Configured and administered ESXi hosts with proper security configurations</li>
+                            <li>Migrated email services from Exchange to Office 365</li>
+                            <li>Managed network infrastructure including servers, firewalls, and switches</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">VMware ESXi</span>
+                            <span class="tech-tag">Office 365</span>
+                            <span class="tech-tag">Network Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- New Project 1: Oracle Database MCP Server -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-database project-icon"></i>
+                        <h3>Oracle Database MCP Server</h3>
+                    </div>
+                    <p class="project-description">
+                        A Model Context Protocol (MCP) server enabling AI assistants to execute SQL queries and explore 
+                        Oracle databases through a standardized interface. Features include parameterized queries, 
+                        transaction handling, schema exploration, and performance analysis.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> SQL Query Execution</span>
+                        <span class="feature"><i class="fas fa-check"></i> Schema Discovery</span>
+                        <span class="feature"><i class="fas fa-check"></i> Performance Analysis</span>
+                        <span class="feature"><i class="fas fa-check"></i> MCP Protocol Compliance</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Oracle DB</span>
+                        <span class="tech-tag">MCP Protocol</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/striker363/oracle-mcp-server" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- New Project 2: CVE Insight Tool -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                        <h3>CVE Insight Tool</h3>
+                    </div>
+                    <p class="project-description">
+                        A production-ready web application for analyzing CVE data using NIST NVD API. Features real-time 
+                        vulnerability analysis, advanced search, bulk processing, and automatic keep-alive with GitHub Actions. 
+                        Deployed on Render with health monitoring.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> CVSS Analysis</span>
+                        <span class="feature"><i class="fas fa-check"></i> Bulk Processing</span>
+                        <span class="feature"><i class="fas fa-check"></i> Real-time Data</span>
+                        <span class="feature"><i class="fas fa-check"></i> Auto Keep-Alive</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NVD API</span>
+                        <span class="tech-tag">GitHub Actions</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://cve-insight-tool.onrender.com" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/striker363/CVE-Insight-Tool" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Release Helper -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-rocket project-icon"></i>
+                        <h3>Release Helper</h3>
+                    </div>
+                    <p class="project-description">
+                        Python-based pre-deployment automation tool that eliminated manual execution steps. 
+                        Reduced release preparation time from 30 minutes to 5 minutes, improving efficiency by 83.3%.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> 83% Time Reduction</span>
+                        <span class="feature"><i class="fas fa-check"></i> Parallel Execution</span>
+                        <span class="feature"><i class="fas fa-check"></i> Error-Free Releases</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Fabric</span>
+                        <span class="tech-tag">Paramiko</span>
+                        <span class="tech-tag">ThreadPoolExecutor</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/striker363" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RAG System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-brain project-icon"></i>
+                        <h3>Retrieval Augmented Generation</h3>
+                    </div>
+                    <p class="project-description">
+                        AI-based system to process multiple PDFs, enabling users to ask questions and receive 
+                        clear, concise answers derived from PDF content using LLMs and vector databases.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> PDF Processing</span>
+                        <span class="feature"><i class="fas fa-check"></i> AI-Powered Q&A</span>
+                        <span class="feature"><i class="fas fa-check"></i> Vector Search</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">ChromaDB</span>
+                        <span class="tech-tag">Ollama</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/striker363" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Meta-Analysis -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line project-icon"></i>
+                        <h3>Meta-Analysis Research</h3>
+                    </div>
+                    <p class="project-description">
+                        Master's final year project analyzing computer science literature from 2000-2020 
+                        using web scraping and data analysis techniques.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> Literature Analysis</span>
+                        <span class="feature"><i class="fas fa-check"></i> Data Mining</span>
+                        <span class="feature"><i class="fas fa-check"></i> Research Insights</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">NumPy</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/striker363" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cookie Consent Banners -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cookie-bite project-icon"></i>
+                        <h3>Cookie Consent Analysis</h3>
+                    </div>
+                    <p class="project-description">
+                        Internet measurements and security project analyzing cookie consent banner implementations 
+                        across websites for compliance and user experience.
+                    </p>
+                    <div class="project-features">
+                        <span class="feature"><i class="fas fa-check"></i> Web Analysis</span>
+                        <span class="feature"><i class="fas fa-check"></i> Security Research</span>
+                        <span class="feature"><i class="fas fa-check"></i> Compliance Check</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Web Scraping</span>
+                        <span class="tech-tag">Security Analysis</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/striker363" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">Perl</span>
+                        <span class="skill-item">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Wireshark</span>
+                        <span class="skill-item">Nmap</span>
+                        <span class="skill-item">Metasploit</span>
+                        <span class="skill-item">Splunk SIEM</span>
+                        <span class="skill-item">MITRE ATT&CK</span>
+                        <span class="skill-item">OWASP Top 10</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Systems & Infrastructure</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">RedHat Linux</span>
+                        <span class="skill-item">Ubuntu</span>
+                        <span class="skill-item">Kali Linux</span>
+                        <span class="skill-item">Windows Server</span>
+                        <span class="skill-item">VMware vSphere</span>
+                        <span class="skill-item">VMware ESXi</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Azure</span>
+                        <span class="skill-item">Google Cloud</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">CI/CD</span>
+                        <span class="skill-item">Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Microsoft SQL</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">ChromaDB</span>
+                        <span class="skill-item">Oracle</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">Jira</span>
+                        <span class="skill-item">Azure DevOps</span>
+                        <span class="skill-item">Selenium</span>
+                        <span class="skill-item">LangChain</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Master of Computer Science</h3>
+                    <h4>Carleton University</h4>
+                    <p class="edu-location">Ontario, Canada</p>
+                    <p class="edu-date">February 2022</p>
+                    <p class="edu-gpa">CGPA: 11.1/12</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>B.E. in Computer Science Engineering</h3>
+                    <h4>Birla Institute of Technology</h4>
+                    <p class="edu-location">Muscat, Oman</p>
+                    <p class="edu-date">May 2019</p>
+                    <p class="edu-gpa">CGPA: 8.5/10</p>
+                </div>
+
+                <div class="education-card certification">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Google Cybersecurity Certification</h3>
+                    <p class="edu-date">February 2025</p>
+                    <p>Hands-on experience with security tools for vulnerability assessments, network analysis, and penetration testing</p>
+                </div>
+
+                <div class="education-card certification">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>CompTIA Security+</h3>
+                    <p class="edu-date">In Progress</p>
+                    <p>Industry-standard certification for cybersecurity professionals</p>
+                </div>
+            </div>
+
+            <div class="coursework">
+                <h3>Relevant Coursework</h3>
+                <div class="course-list">
+                    <span class="course">Operating System Security</span>
+                    <span class="course">Adaptive Security</span>
+                    <span class="course">Distributed Operating Systems</span>
+                    <span class="course">Internet Measurements and Security</span>
+                    <span class="course">Mobile Commerce Technology</span>
+                    <span class="course">Software Usability</span>
+                    <span class="course">CompTIA IT Fundamentals</span>
+                    <span class="course">Fundamentals of Network Security</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-text">
+                        I'm currently open to new opportunities in cybersecurity and software development. 
+                        Whether you have a question or just want to connect, feel free to reach out!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <a href="mailto:siddharthsingh3631@gmail.com">siddharthsingh3631@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <a href="tel:+14379901406">(437) 990-1406</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <span>Oshawa, Ontario, Canada</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/siddharth-arvind-singh/" target="_blank">siddharth-arvind-singh</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/striker363" target="_blank">striker363</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Let's Build Something Together</h3>
+                    <p>Ready to bring your ideas to life with secure, scalable solutions?</p>
+                    <a href="mailto:siddharthsingh3631@gmail.com" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Siddharth Arvind Singh. All rights reserved.</p>
+            <p class="footer-note">Built with passion and deployed with purpose</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 

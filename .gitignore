@@ -1,0 +1,23 @@
+# Resume files
+*.docx
+*.pdf
+*.doc
+
+# README files
+README*.md
+README.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+~* 
