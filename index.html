@@ -7,6 +7,9 @@
     <meta name="keywords" content="Software Developer, Cybersecurity, Python, Full Stack, Portfolio">
     <meta name="author" content="Siddharth Arvind Singh">
     
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com;">
+    
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="Siddharth Singh - Software Developer II & Cybersecurity Professional">
     <meta property="og:description" content="Passionate about building secure, scalable solutions. 3+ years experience in software development, specializing in Python, REST APIs, and cybersecurity.">
@@ -186,12 +189,23 @@
                         <h4>CSGi (R&D Team) - Toronto, Canada</h4>
                         <p style="color: var(--accent-primary); margin-bottom: 1rem; font-weight: 500;">Promoted to Software Developer II in June 2025</p>
                         <ul>
-                            <li>Led onsite deployment for major production releases, ensuring successful system upgrades and operational stability</li>
-                            <li>Integrated systems using REST APIs with robust authentication, authorization, and API security best practices</li>
-                            <li>Documented REST APIs using OpenAPI Specification, reducing inquiries by 25%</li>
-                            <li>Developed Python, Perl, and Shell scripts for automation on RedHat Linux, improving efficiency by 20%</li>
-                            <li>Conducted performance testing of APIs, achieving up to 10% reduction in latency</li>
-                            <li>Created a solution enabling clients to maintain custom Python scripts while preserving proprietary system confidentiality</li>
+                            <li>Orchestrated critical production release deployment serving 40,000 live customers in St. Kitts</li>
+                            <li>Achieved zero-downtime deployment by coordinating 15-member offshore team through year-long development cycle</li>
+                            <li>Architected and secured 40+ REST API endpoints with authentication/authorization serving 5+ channels 
+                                (mobile, USSD, kiosk, eShop, IVR)</li>
+                            <li>Optimized API performance through SQL query improvements, reducing response time by 64% (700ms to 250ms)</li>
+                            <li>Streamlined API documentation for 40+ endpoints, reducing support requests by 70% 
+                                (from 10+ daily to 3-4 critical issues)</li>
+                            <li>Engineered Python automation scripts saving 20+ minutes per task, adopted by 30-member team 
+                                for daily operations across 6 releases/week</li>
+                            <li>Developed secure middleware bridge enabling 15 client team members to interface with proprietary systems, 
+                                implementing input validation and secure data handling</li>
+                            <li>Resolved 50+ production incidents as primary on-call engineer (12 shifts/month) 
+                                supporting 200-person project across 8 teams</li>
+                            <li>Administered multi-market platform spanning 23 markets with up to 1M customers per market 
+                                across 20 Azure environments including production</li>
+                            <li>Earned monetary award for Release Helper automation tool that reduced deployment time by 83% 
+                                (30 to 5 minutes) across 14 nodes</li>
                         </ul>
                         <div class="tech-tags">
                             <span class="tech-tag">Python</span>
@@ -199,6 +213,8 @@
                             <span class="tech-tag">RedHat Linux</span>
                             <span class="tech-tag">Perl</span>
                             <span class="tech-tag">Shell Scripting</span>
+                            <span class="tech-tag">Azure</span>
+                            <span class="tech-tag">API Security</span>
                         </div>
                     </div>
                 </div>
@@ -209,16 +225,21 @@
                         <h3>Software Developer (Internship)</h3>
                         <h4>Public Authority for Civil Aviation - Muscat, Oman</h4>
                         <ul>
-                            <li>Trained in secure programming, network security practices, and usability</li>
-                            <li>Developed a secure FTP solution in C# with FTPS encryption for safe file transfers</li>
-                            <li>Designed an ERP solution using ASP.NET with role-based access controls (RBAC)</li>
-                            <li>Evaluated database usability and access control for robust data protection</li>
+                            <li>Engineered secure FTP solution in C# with FTPS encryption serving 18 government users, 
+                                implementing enterprise-grade security protocols</li>
+                            <li>Designed ERP system with role-based access controls (RBAC) implementing 3-tier permission model 
+                                (Admin, Manager, Employee) for secure data management</li>
+                            <li>Evaluated and optimized database access controls and user permissions 
+                                for government aviation systems</li>
+                            <li>Completed comprehensive training in secure programming practices, network security, 
+                                and vulnerability assessment</li>
                         </ul>
                         <div class="tech-tags">
                             <span class="tech-tag">C#</span>
                             <span class="tech-tag">ASP.NET</span>
                             <span class="tech-tag">FTPS</span>
                             <span class="tech-tag">RBAC</span>
+                            <span class="tech-tag">Security Auditing</span>
                         </div>
                     </div>
                 </div>
@@ -229,15 +250,21 @@
                         <h3>IT Support</h3>
                         <h4>Decoding IT Solutions - Muscat, Oman</h4>
                         <ul>
-                            <li>Provided technical support focusing on secure configuration and system hardening</li>
-                            <li>Configured and administered ESXi hosts with proper security configurations</li>
-                            <li>Migrated email services from Exchange to Office 365</li>
-                            <li>Managed network infrastructure including servers, firewalls, and switches</li>
+                            <li>Configured and hardened 5-6 VMs across 3 ESXi hosts with security isolation 
+                                and access controls</li>
+                            <li>Executed secure email migration for major hotel chain, successfully transferring 
+                                150+ mailboxes from Exchange to Office 365 with data integrity verification</li>
+                            <li>Implemented security best practices including system hardening and patch management 
+                                for enterprise clients</li>
+                            <li>Secured network infrastructure including firewalls, switches, and servers with 
+                                focus on access control and threat prevention</li>
                         </ul>
                         <div class="tech-tags">
                             <span class="tech-tag">VMware ESXi</span>
                             <span class="tech-tag">Office 365</span>
                             <span class="tech-tag">Network Security</span>
+                            <span class="tech-tag">System Hardening</span>
+                            <span class="tech-tag">Firewall Management</span>
                         </div>
                     </div>
                 </div>
@@ -334,11 +361,6 @@
                         <span class="tech-tag">Paramiko</span>
                         <span class="tech-tag">ThreadPoolExecutor</span>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/striker363" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Profile
-                        </a>
-                    </div>
                 </div>
 
                 <!-- RAG System -->
@@ -348,8 +370,9 @@
                         <h3>Retrieval Augmented Generation</h3>
                     </div>
                     <p class="project-description">
-                        AI-based system to process multiple PDFs, enabling users to ask questions and receive 
-                        clear, concise answers derived from PDF content using LLMs and vector databases.
+                        Built an AI-powered document analysis system for personal use to efficiently extract insights from 
+                        large documents without manual reading. Processes multiple PDFs and provides accurate answers to 
+                        queries using LLMs and vector databases.
                     </p>
                     <div class="project-features">
                         <span class="feature"><i class="fas fa-check"></i> PDF Processing</span>
@@ -362,11 +385,6 @@
                         <span class="tech-tag">ChromaDB</span>
                         <span class="tech-tag">Ollama</span>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/striker363" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Profile
-                        </a>
-                    </div>
                 </div>
 
                 <!-- Meta-Analysis -->
@@ -376,8 +394,9 @@
                         <h3>Meta-Analysis Research</h3>
                     </div>
                     <p class="project-description">
-                        Master's final year project analyzing computer science literature from 2000-2020 
-                        using web scraping and data analysis techniques.
+                        Master's thesis analyzing 20 years of computer science literature (2000-2020) revealing increasing 
+                        trend in offensive/attacker papers. Research emphasized the critical need for adopting defensive 
+                        security mindsets in response to evolving threat landscape.
                     </p>
                     <div class="project-features">
                         <span class="feature"><i class="fas fa-check"></i> Literature Analysis</span>
@@ -389,11 +408,6 @@
                         <span class="tech-tag">Selenium</span>
                         <span class="tech-tag">NumPy</span>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/striker363" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Profile
-                        </a>
-                    </div>
                 </div>
 
                 <!-- Cookie Consent Banners -->
@@ -403,8 +417,9 @@
                         <h3>Cookie Consent Analysis</h3>
                     </div>
                     <p class="project-description">
-                        Internet measurements and security project analyzing cookie consent banner implementations 
-                        across websites for compliance and user experience.
+                        Security research project demonstrating widespread non-compliance with user privacy preferences. 
+                        Analysis revealed many websites bypass consent choices and enable all tracking cookies regardless 
+                        of user selection, highlighting critical privacy violations.
                     </p>
                     <div class="project-features">
                         <span class="feature"><i class="fas fa-check"></i> Web Analysis</span>
@@ -415,11 +430,6 @@
                         <span class="tech-tag">Python</span>
                         <span class="tech-tag">Web Scraping</span>
                         <span class="tech-tag">Security Analysis</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/striker363" target="_blank" class="project-link">
-                            <i class="fab fa-github"></i> View Profile
-                        </a>
                     </div>
                 </div>
             </div>
